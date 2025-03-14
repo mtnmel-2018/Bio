@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6; /* Improve readability */
     background-color: #f4f4f4; /* Light gray background */
-    background-image: url(spring.jpg)
+    background-image: url(spring);
     padding: 20px; /* Add padding for overall spacing */
 }
 
