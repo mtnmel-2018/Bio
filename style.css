@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #596d65; /* Fallback color */
-    background-image: url(blackpen.jpg); /* Set the background image */
+    background-image: url(Back.jpg); /* Set the background image */
     background-size: cover; /* Ensures the background covers the entire area */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the background from repeating */
