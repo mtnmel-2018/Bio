@@ -42,7 +42,8 @@ main {
 /* Section headings */
 h2 {
     margin-top: 20px; /* Space above section headings */
-    color: #333; /* Darker color for headings */
+    color: #f7f5f5; /* Darker color for headings */
+    text-align:center
 }
 
 /* Project list styles */
