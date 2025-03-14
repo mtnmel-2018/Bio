@@ -7,10 +7,14 @@
 
 /* Set a base font and background color */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6; /* Improve readability */
-    background-color: #f4f4f4; /* Light gray background */
-    padding: 20px; /* Add padding for overall spacing */
+    font-family: 'cursive', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #596d65; /* Fallback color */
+    background-image: url(blackpen.jpg); /* Set the background image */
+    background-size: cover; /* Ensures the background covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
 }
 
 /* Header styles */
