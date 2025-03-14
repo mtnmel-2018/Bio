@@ -1,0 +1,73 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Set a base font and background color */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Improve readability */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px; /* Add padding for overall spacing */
+}
+
+/* Header styles */
+header {
+    text-align: center; /* Center text in header */
+    margin-bottom: 20px; /* Space below header */
+}
+
+.profile-img {
+    width: 150px; /* Fixed width for profile image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular image */
+}
+
+/* Main section styles */
+main {
+    max-width: 800px; /* Limit max width */
+    margin: 0 auto; /* Center main content */
+    background: white; /* White background for main content */
+    padding: 20px; /* Inner spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Section headings */
+h2 {
+    margin-top: 20px; /* Space above section headings */
+    color: #333; /* Darker color for headings */
+}
+
+/* Project list styles */
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+ul li {
+    margin: 10px 0; /* Space between list items */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center footer content */
+    margin-top: 20px; /* Space above footer */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .profile-img {
+        width: 100px; /* Smaller image for mobile */
+    }
+
+    header, main, footer {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    h1, h2 {
+        font-size: 1.5em; /* Slightly smaller headings for mobile */
+    }
+}
