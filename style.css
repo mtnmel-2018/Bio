@@ -7,14 +7,10 @@
 
 /* Set a base font and background color */
 body {
-    font-family: 'cursive', cursive;
-    margin: 0;
-    padding: 0;
-    background-color: #596d65; /* Fallback color */
-    background-image: url(Back.jpg); /* Set the background image */
-    background-size: cover; /* Ensures the background covers the entire area */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the background from repeating */
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Improve readability */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px; /* Add padding for overall spacing */
 }
 
 /* Header styles */
@@ -23,6 +19,7 @@ header {
     margin-bottom: 20px; /* Space below header */
 }
 
+/* Profile image styles */
 .profile-img {
     width: 150px; /* Fixed width for profile image */
     height: auto; /* Maintain aspect ratio */
@@ -33,27 +30,17 @@ header {
 main {
     max-width: 800px; /* Limit max width */
     margin: 0 auto; /* Center main content */
-    background: rgb(114, 131, 121); /* White background for main content */
+    background: white; /* White background for main content */
     padding: 20px; /* Inner spacing */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
-/* Section headings */
+/* Center section headings */
 h2 {
+    text-align: center; /* Center section headings */
     margin-top: 20px; /* Space above section headings */
-    color: #f7f5f5; /* Darker color for headings */
-    text-align:center
-}
-
-/* Project list styles */
-ul {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-}
-
-ul li {
-    margin: 10px 0; /* Space between list items */
+    color: #333; /* Darker color for headings */
 }
 
 /* Footer styles */
@@ -62,17 +49,7 @@ footer {
     margin-top: 20px; /* Space above footer */
 }
 
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    .profile-img {
-        width: 100px; /* Smaller image for mobile */
-    }
-
-    header, main, footer {
-        padding: 10px; /* Reduce padding on smaller screens */
-    }
-
-    h1, h2 {
-        font-size: 1.5em; /* Slightly smaller headings for mobile */
-    }
+/* Adjust links to be displayed inline */
+footer a {
+    margin: 0 5px; /* Add space between links */
 }
