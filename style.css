@@ -33,7 +33,7 @@ header {
 main {
     max-width: 800px; /* Limit max width */
     margin: 0 auto; /* Center main content */
-    background: white; /* White background for main content */
+    background: rgb(114, 131, 121); /* White background for main content */
     padding: 20px; /* Inner spacing */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
